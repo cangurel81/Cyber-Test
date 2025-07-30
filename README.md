@@ -135,7 +135,7 @@ cyber-test/
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/yourusername/cyber-test.git
+git clone https://github.com/cangurel81/cyber-test.git
 cd cyber-test
 ```
 
