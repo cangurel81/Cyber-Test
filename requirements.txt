@@ -1,0 +1,9 @@
+PyQt6
+requests
+paramiko
+dnspython
+scapy
+psutil
+pymysql
+psycopg2-binary
+pyodbc
