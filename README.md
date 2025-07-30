@@ -177,6 +177,8 @@ psycopg2-binary>=2.8.0 # PostgreSQL database connectivity
 pyodbc>=4.0.0         # SQL Server database connectivity
 ```
 
+<img width="415" height="842" alt="Ekran görüntüsü 2025-07-30 194552" src="https://github.com/user-attachments/assets/a610aee7-772b-47d0-9473-d24c3b83449f" />
+
 ## 🎯 **Usage Examples**
 
 ### **Basic Web Security Scan**
