@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Sanal ortamlar
+.venv/
+venv/
+env/
+
+# Paketleme / derleme
+build/
+dist/
+*.spec
+*.egg-info/
+
+# Test ve kapsam çıktıları
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Raporlar (uygulamanın ürettiği çıktılar)
+reports/
+*.log
+
+# Editör / işletim sistemi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

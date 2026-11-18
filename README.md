@@ -1,19 +1,19 @@
 # 🔐 Cyber Test - Load & Resilience Testing (authorized targets only)
 
-**Cyber Test** is a professional Python application designed for comprehensive security and load testing of servers and network infrastructure. With its modern PyQt6-based interface, security professionals and system administrators can perform security assessments, port scans, and controlled stress tests **only on systems they own or have explicit written permission to test**.
+**Cyber Test** is a PyQt6 desktop app for testing the servers you run: HTTP security headers and TLS
+posture, open ports and service banners, database/mail/DNS/SMB connectivity, and controlled load
+tests. Run it only against systems you own or have explicit written permission to test.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyQt6](https://img.shields.io/badge/GUI-PyQt6-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
 
-## ⬇️ Download / İndir
+## ⬇️ Download
 
 [![Download for Windows](https://img.shields.io/badge/Download-Cyber.Test.exe-2ea44f?style=for-the-badge&logo=windows)](https://github.com/cangurel81/Cyber-Test/releases/latest/download/Cyber.Test.exe)
 
 Portable `.exe` — no installation required. Windows may warn about an unsigned binary: click **More info → Run anyway**.
-
-Kurulum gerektirmez. İmzasız olduğu için Windows SmartScreen uyarısı gösterebilir: **More info → Run anyway** deyin.
 
 > Use only against systems you own or have written authorization for — see the **Important Security Notice** section below.
 
@@ -110,7 +110,7 @@ Kurulum gerektirmez. İmzasız olduğu için Windows SmartScreen uyarısı göst
 ## 📁 **Project Structure**
 
 ```
-cyber-test/
+Cyber-Test/
 ├── main.py                 # Application entry point
 ├── gui/                    # User interface modules
 │   ├── __init__.py
@@ -145,8 +145,8 @@ cyber-test/
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/cangurel81/cyber-test.git
-cd cyber-test
+git clone https://github.com/cangurel81/Cyber-Test.git
+cd Cyber-Test
 ```
 
 2. **Create virtual environment** (recommended):
@@ -239,6 +239,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - All tests are performed locally
 - User credentials and sensitive data are handled securely
 - Test results are stored locally only
+
+## 🇹🇷 Türkçe
+
+**Cyber Test**, sunucularınızı test etmek için yazılmış bir PyQt6 masaüstü uygulamasıdır:
+HTTP güvenlik başlıkları ve TLS yapılandırması, açık portlar ve servis banner'ları,
+veritabanı / mail / DNS / SMB bağlantı testleri ve kontrollü yük (stres) testleri.
+
+- **İndirme:** [Cyber.Test.exe](https://github.com/cangurel81/Cyber-Test/releases/latest/download/Cyber.Test.exe) — kurulum gerekmez.
+- **Çalıştırma:** `pip install -r requirements.txt` → `python main.py` (Python 3.8+).
+- **Uyarı:** Yalnızca sahibi olduğunuz veya yazılı izin aldığınız sistemlerde kullanın.
+  İmzasız exe olduğu için SmartScreen uyarısı çıkarsa **More info → Run anyway** deyin.
+- **Lisans:** MIT.
 
 ---
 
