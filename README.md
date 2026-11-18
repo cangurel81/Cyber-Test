@@ -1,11 +1,21 @@
-# 🔐 Cyber Test - Comprehensive Server Security Testing Suite
+# 🔐 Cyber Test - Load & Resilience Testing (authorized targets only)
 
-**Cyber Test** is a professional Python application designed for comprehensive security testing of servers and network infrastructure. With its modern PyQt6-based interface, security professionals and system administrators can easily perform various security assessments and penetration testing tasks.
+**Cyber Test** is a professional Python application designed for comprehensive security and load testing of servers and network infrastructure. With its modern PyQt6-based interface, security professionals and system administrators can perform security assessments, port scans, and controlled stress tests **only on systems they own or have explicit written permission to test**.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyQt6](https://img.shields.io/badge/GUI-PyQt6-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
+
+## ⬇️ Download / İndir
+
+[![Download for Windows](https://img.shields.io/badge/Download-Cyber.Test.exe-2ea44f?style=for-the-badge&logo=windows)](https://github.com/cangurel81/Cyber-Test/releases/latest/download/Cyber.Test.exe)
+
+Portable `.exe` — no installation required. Windows may warn about an unsigned binary: click **More info → Run anyway**.
+
+Kurulum gerektirmez. İmzasız olduğu için Windows SmartScreen uyarısı gösterebilir: **More info → Run anyway** deyin.
+
+> Use only against systems you own or have written authorization for — see the **Important Security Notice** section below.
 
 ## 🌟 Features
 
@@ -55,19 +65,19 @@
 - **Security Assessment**: Risk evaluation based on open ports
 - **Performance Optimization**: Multi-threaded scanning with speed control
 
-### ⚡ **Stress Testing & DDoS Simulation**
+### ⚡ **Stress & Resilience Testing**
 
-#### 💥 **Attack Simulation Capabilities**
-- **SYN Flood Attacks**: TCP SYN flood simulation for resilience testing
-- **UDP Flood Attacks**: UDP packet flooding with customizable payload sizes
-- **HTTP Flood Attacks**: Application-layer DDoS simulation with various HTTP methods
-- **ICMP Flood Attacks**: Network-layer ping flood testing
-- **Multi-Vector Attacks**: Combined attack scenarios for comprehensive testing
+#### 💥 **Load Simulation Capabilities**
+- **SYN Flood Simulation**: TCP SYN packet flooding for resilience testing
+- **UDP Flood Simulation**: UDP packet flooding with customizable payload sizes
+- **HTTP Flood Requests**: Application-layer load simulation with various HTTP methods
+- **ICMP Flood Simulation**: Network-layer ping flood testing
+- **Multi-Vector Scenarios**: Combined test scenarios for comprehensive resilience checks
 
 #### 📊 **System Monitoring**
 - **Real-time Resource Monitoring**: CPU and memory usage tracking during tests
 - **Performance Metrics**: Response time and availability monitoring
-- **Attack Impact Assessment**: System behavior analysis under stress conditions
+- **Load Impact Assessment**: System behavior analysis under stress conditions
 
 ### 🎨 **Modern User Interface**
 
@@ -114,7 +124,7 @@ cyber-test/
 │   ├── mail_server.py      # Mail server security assessment
 │   ├── dns_server.py       # DNS security and performance testing
 │   ├── file_server.py      # File server security evaluation
-│   ├── stress_ddos.py      # Stress testing and DDoS simulation
+│   ├── stress_ddos.py      # Stress testing and load simulation
 │   └── port_scanner.py     # Advanced port scanning capabilities
 ├── utils/                  # Utility modules
 │   ├── __init__.py
@@ -192,9 +202,9 @@ pyodbc>=4.0.0         # SQL Server database connectivity
 3. Configure additional options (service detection, banner grabbing)
 4. Execute scan and review detailed results
 
-### **Stress Testing**
-1. Select "Stress/DDoS Test"
-2. Choose attack type (SYN Flood, UDP Flood, HTTP Flood, ICMP Flood)
+### **Stress & Resilience Testing**
+1. Select "Stress/Resilience Test"
+2. Choose test type (SYN Flood, UDP Flood, HTTP Flood, ICMP Flood)
 3. Configure parameters (packet count, interval, threads)
 4. Monitor real-time system impact
 
